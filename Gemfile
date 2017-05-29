@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '2.2.2'
+
 gem 'rails', '4.0.1'
 
 group :production do
@@ -39,7 +41,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-ruby '2.0.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
